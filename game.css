@@ -1,0 +1,86 @@
+
+body {
+    margin: 0px;
+}
+
+#bear {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    width: 100px;
+    height: 160px
+}
+
+#board {
+    position: absolute;
+    height: 600px;
+    width:  100%;
+    background-color: rgb(138, 199, 228);
+    align-content: center;
+    align-self: center;
+}
+
+#title {
+    padding-left: 2%;
+    background-color: rgb(254, 255, 198);
+    align-content: center;
+    align-self: center;
+    padding-bottom: 1%;
+}
+
+h1{
+    color: rgb(71, 70, 70);
+    text-shadow: 1px 1px #da7eb1;
+    margin-top: 0px;
+}
+
+h2{
+    color:rgb(255, 57, 156);
+}
+
+button {
+    background-color: #97d499; /* Green */
+    border: none;
+    color: rgb(94, 141, 94);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-right: 14px;
+}
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+input{
+    border: none;
+    padding: 3px 3px;
+}
+
+input:focus{
+    border: grey;
+}
+
+#scores {
+    background-color: rgb(238, 176, 235);
+    align-content: center;
+    align-self: center;
+    padding-left: 2%;
+}
+
+.location {
+    color: green;
+}
+
+#hits {
+    color: red;
+}
+
+#duration {
+    color: blue;
+}
+
